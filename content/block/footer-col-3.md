@@ -1,3 +1,3 @@
-#### Footer col 3
+#### Inlämningar
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+[Canvas](https://www.bth.se/canvas/)

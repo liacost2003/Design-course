@@ -1,3 +1,3 @@
-#### Footer col 2
+#### Universitetet
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+[BTH hemsida](https://www.bth.se/)
