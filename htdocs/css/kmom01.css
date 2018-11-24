@@ -100,7 +100,9 @@ figcaption {
     text-align: center;
     padding: 10% 0 0 0;
     margin: 0; */
-    display: none;
+    /* display: none; */
+    text-align: center;
+    padding: 4% 0 0 0;
 }
 
  div .author-byline .figure {
