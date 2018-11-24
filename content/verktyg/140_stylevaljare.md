@@ -49,7 +49,7 @@ return [
             "stylesheets" => [
                 // Change here to set another default stylesheet
                 "css/dbwebb-se.min.css",
-                //"css/kmom01.css",
+                // "css/kmom01.css",
             ],
 ```
 
