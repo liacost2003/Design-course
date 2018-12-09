@@ -1,0 +1,374 @@
+/*!
+ * LESS version of the stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Its intention is to
+ * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+/* Hide submenu, leave this to kmom02 */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(https://fonts.gstatic.com/s/oswald/v16/TK3iWkUHHAIjg752GT8D.ttf) format('truetype');
+}
+.wrap-all {
+  max-width: 1100px;
+  padding: 4%;
+  margin: 0 auto;
+  background-color: Snow;
+  /* height: 1500px; */
+}
+.site-logo {
+  display: none;
+}
+/* .region-flash {
+    margin:auto;
+} */
+.my-navbar li {
+  display: inline-block;
+  padding: 0 3%;
+  font-size: 120%;
+}
+.my-navbar li a {
+  text-decoration: none;
+}
+.figure {
+  margin: 0;
+}
+.region-header-col-2 {
+  float: left;
+  width: 80%;
+}
+.region-header-col-1 {
+  float: left;
+  padding: 0 0 2% 0;
+}
+.my-navbar {
+  padding: 1% 0 0 15%;
+}
+.site-logo-text a {
+  font-size: 120%;
+  text-decoration: none;
+}
+.figure {
+  float: right;
+  padding: 0 0 0 3%;
+}
+figcaption {
+  text-align: center;
+}
+.article h1 {
+  text-align: center;
+  padding: 2%;
+}
+.article {
+  width: 100%;
+}
+.site-footer {
+  /* width: 100%;
+    text-align: center;
+    padding: 10% 0 0 0;
+    margin: 0; */
+  /* display: none; */
+  text-align: center;
+  padding: 4% 0 0 0;
+}
+div .author-byline .figure {
+  padding: 1%;
+}
+div .author-byline p {
+  padding: 3%;
+  color: black;
+  font-size: 120%;
+  line-height: 2;
+}
+.author-byline {
+  background-color: Silver;
+  /* height: 300px; */
+  width: 100%;
+  height: 120px;
+  margin: 10% 0 0 0;
+}
+.figure.left figcaption p {
+  /* padding: 0; */
+  margin: 0;
+  font-size: 80%;
+}
+.wrap-sidebar.region-sidebar-right {
+  width: 35%;
+  float: right;
+}
+.region-main.has-sidebar-right {
+  width: 65%;
+  float: left;
+}
+.region-main.has-sidebar-left {
+  width: 65%;
+  float: right;
+}
+.block.toc {
+  width: 35%;
+  float: left;
+}
+.wrap-sidebar.region-sidebar-right .block {
+  text-align: center;
+  padding: 4% 0 0 0;
+  font-size: 120%;
+  /* height: 745.75px; */
+}
+.wrap-sidebar.region-sidebar-right {
+  height: 600px;
+  /* padding: 1%; */
+}
+.outer-wrap.outer-wrap-footer {
+  /* box-sizing: border-box; */
+  /* width: 33%; */
+}
+.columns.footer-column-wrapper {
+  /* height: 100px; */
+  height: 150px;
+  width: 100%;
+}
+.column.footer-column {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+  /* height: 100px;
+    background-color: red; */
+}
+.inner-wrap.inner-wrap-main .row {
+  height: 900px;
+}
+h4 {
+  font-size: 120%;
+  /* text-align: center; */
+}
+.next {
+  float: right;
+}
+.breadcrumb-list ul li a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+/**
+ * Style for the stylechooser.
+ */
+/**
+ * Variables
+ */
+/**
+ * Style
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+html {
+  overflow-y: scroll;
+  background-color: #424242;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #fff;
+  font: 100.01%/1 Oswald;
+}
+img {
+  max-width: 100%;
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+/**
+ * General layout
+ */
+.inner-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+/* Hide responsive/mobile menu, leave this to kmom02 */
+.wrap-all {
+  max-width: 1100px;
+  padding: 4%;
+  margin: 0 auto;
+  background-color: Snow;
+}
+.site-logo {
+  display: none;
+}
+.my-navbar li {
+  display: inline-block;
+  padding: 0 3%;
+  font-size: 120%;
+}
+.my-navbar li a {
+  text-decoration: none;
+}
+.figure {
+  margin: 0;
+}
+.region-header-col-2 {
+  float: left;
+  width: 80%;
+}
+.region-header-col-1 {
+  float: left;
+  padding: 0 0 2% 0;
+}
+.my-navbar {
+  padding: 1% 0 0 15%;
+}
+.site-logo-text a {
+  font-size: 120%;
+  text-decoration: none;
+}
+.figure {
+  float: right;
+  padding: 0 0 0 3%;
+}
+figcaption {
+  text-align: center;
+}
+.article h1 {
+  text-align: center;
+  padding: 2%;
+}
+.article {
+  width: 100%;
+}
+.site-footer {
+  text-align: center;
+  padding: 4% 0 0 0;
+}
+div .author-byline .figure {
+  padding: 1%;
+}
+div .author-byline p {
+  padding: 3%;
+  color: black;
+  font-size: 120%;
+  line-height: 2;
+}
+.author-byline {
+  background-color: Silver;
+  width: 100%;
+  height: 120px;
+  margin: 10% 0 0 0;
+}
+.figure.left figcaption p {
+  margin: 0;
+  font-size: 80%;
+}
+.wrap-sidebar.region-sidebar-right {
+  width: 35%;
+  float: right;
+}
+.region-main.has-sidebar-right {
+  width: 65%;
+  float: left;
+}
+.region-main.has-sidebar-left {
+  width: 65%;
+  float: right;
+}
+.block.toc {
+  width: 35%;
+  float: left;
+}
+.wrap-sidebar.region-sidebar-right .block {
+  text-align: center;
+  padding: 4% 0 0 0;
+  font-size: 120%;
+}
+.wrap-sidebar.region-sidebar-right {
+  height: 600px;
+}
+.columns.footer-column-wrapper {
+  height: 150px;
+  width: 100%;
+}
+.column.footer-column {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+.inner-wrap.inner-wrap-main .row {
+  height: 900px;
+}
+h4 {
+  font-size: 120%;
+}
+.next {
+  float: right;
+}
+.breadcrumb-list ul li a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+/**
+ * Layout for responsive style through media queries.
+ */
+@media screen and (max-width: 1500px) {
+  .site-logo {
+    display: none;
+  }
+}
+/**
+ * Show off the regions used in the website, to ease styling.
+ */
+.regions .outer-wrap {
+  background-color: #f4e3c9;
+  border: 1px solid #e3b774;
+}
+.regions .inner-wrap {
+  background-color: #f4e0e9;
+  border: 1px solid #d995b4;
+}
+.regions .region-header-col-1,
+.regions .region-header-col-2,
+.regions .region-header-col-3,
+.regions .region-flash,
+.regions .region-breadcrumb,
+.regions .region-flash-message,
+.regions .region-columns-above,
+.regions .region-main,
+.regions .region-after-main,
+.regions .region-columns-below,
+.regions .region-sidebar-left,
+.regions .region-sidebar-right,
+.regions .region-footer,
+.regions .region-footer-column-1,
+.regions .region-footer-column-2,
+.regions .region-footer-column-3 {
+  background-color: #b5dce1;
+  border: 1px solid #6cbac4;
+  color: #111;
+}
+/**
+ * My own settings, not currently in their own module.
+ */

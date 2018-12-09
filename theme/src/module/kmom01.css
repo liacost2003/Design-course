@@ -1,0 +1,166 @@
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+/* Hide submenu, leave this to kmom02 */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(https://fonts.gstatic.com/s/oswald/v16/TK3iWkUHHAIjg752GT8D.ttf) format('truetype');
+}
+html {
+  overflow-y: scroll;
+  font-family: "Oswald";
+}
+.rm-desktop ul {
+  display: none;
+}
+/* Hide responsive/mobile menu, leave this to kmom02 */
+.rm-navbar-max {
+  display: none;
+}
+.wrap-all {
+  max-width: 1100px;
+  padding: 4%;
+  margin: 0 auto;
+  /* background-color: #ebedb4; */
+  background-color: Azure;
+  /* height: 1500px; */
+}
+.site-logo {
+  display: none;
+}
+/* .region-flash {
+    margin:auto;
+} */
+.my-navbar li {
+  display: inline-block;
+  padding: 0 3%;
+  font-size: 120%;
+}
+.my-navbar li a {
+  text-decoration: none;
+}
+.figure {
+  margin: 0;
+}
+.region-header-col-2 {
+  float: left;
+  width: 80%;
+}
+.region-header-col-1 {
+  float: left;
+  padding: 0 0 2% 0;
+}
+.my-navbar {
+  padding: 1% 0 0 15%;
+}
+.site-logo-text a {
+  font-size: 120%;
+  text-decoration: none;
+}
+.figure {
+  float: right;
+  padding: 0 0 0 3%;
+}
+figcaption {
+  text-align: center;
+}
+.article h1 {
+  text-align: center;
+  padding: 2%;
+}
+.article {
+  width: 100%;
+}
+.site-footer {
+  /* width: 100%;
+    text-align: center;
+    padding: 10% 0 0 0;
+    margin: 0; */
+  /* display: none; */
+  text-align: center;
+  padding: 4% 0 0 0;
+}
+div .author-byline .figure {
+  padding: 1%;
+}
+div .author-byline p {
+  padding: 1%;
+  color: white;
+  font-size: 120%;
+}
+.author-byline {
+  background-color: grey;
+  /* height: 300px; */
+  width: 100%;
+  height: 120px;
+  margin: 10% 0 0 0;
+}
+.figure.left figcaption p {
+  /* padding: 0; */
+  margin: 0;
+  font-size: 80%;
+}
+.wrap-sidebar.region-sidebar-right {
+  width: 35%;
+  float: right;
+}
+.region-main.has-sidebar-right {
+  width: 65%;
+  float: left;
+}
+.region-main.has-sidebar-left {
+  width: 65%;
+  float: right;
+}
+.block.toc {
+  width: 35%;
+  float: left;
+}
+.wrap-sidebar.region-sidebar-right .block {
+  text-align: center;
+  padding: 4% 0 0 0;
+  font-size: 120%;
+  /* height: 745.75px; */
+}
+.wrap-sidebar.region-sidebar-right {
+  height: 600px;
+  /* padding: 1%; */
+}
+.outer-wrap.outer-wrap-footer {
+  /* box-sizing: border-box; */
+  /* width: 33%; */
+}
+.columns.footer-column-wrapper {
+  /* height: 100px; */
+  height: 150px;
+  background-color: DarkSeaGreen;
+  width: 100%;
+}
+.column.footer-column {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+  /* height: 100px;
+    background-color: red; */
+}
+.inner-wrap.inner-wrap-main .row {
+  height: 900px;
+}
+h4 {
+  font-size: 120%;
+  /* text-align: center; */
+}
+.next {
+  float: right;
+}
+.breadcrumb-list ul li a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}

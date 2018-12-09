@@ -1,0 +1,43 @@
+/*!
+ * LESS version of the stylesheet for design kmom02.
+ *
+ * This stylesheet is for the design course and kmom01. Its intention is to
+ * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+@import "mixin/clearfix.less";
+@import "normalize.css/normalize.less";
+// @import "module/kmom01.less";
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+@import "@desinax/responsive-menu/less/media-queries.less";
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@import "base/base.less";
+//@import "base/base.less";
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+@import "layout/layout.less";
+@import "layout/layout_kmom02.less";
+@import "layout/responsive.less";
+//@import "layout/layout.less";
+//@import "layout/responsive.less";
+@import "layout/regions.less";     // To add style for ?regions
+
+/**
+ * My own settings, not currently in their own module.
+ */
+@bgColorHtml: #333;
+// @bgColorBody: #999;
+@bgColorBody: white;
